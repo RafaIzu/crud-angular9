@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "id": 2,
+      "name": "Notebook ThinkPad",
+      "price": 5000
+    },
+    {
+      "id": 3,
+      "name": "Sansung S20+",
+      "price": 5000
+    },
+    {
+      "name": "Placa de vídeo GTX1080ti",
+      "price": "5500.00",
+      "id": 4
+    },
+    {
+      "name": "Geladeira",
+      "price": "900.00",
+      "id": 5
+    }
+  ]
+}
