@@ -7,3 +7,21 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
+
+  constructor( private headerService: HeaderService) { }
+
+  ngOnInit(): void {
+  }
+  get title(): string{
+    return this.headerService.headerData.title
+  }
+
+  get icon(): string{
+    return this.headerService.headerData.icon
+  }
+
+  get routerUrl(): string{
+    return this.headerService.headerData.routeUrl
+  }
+
+}
